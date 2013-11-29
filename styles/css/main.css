@@ -254,6 +254,9 @@ dl {
     .success a:hover, #flash_success a:hover {
       color: black; }
 
+img {
+  max-width: 100%; }
+
 section#main {
   *zoom: 1;
   max-width: 68em;
