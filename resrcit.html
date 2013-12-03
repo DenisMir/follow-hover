@@ -1,24 +1,37 @@
 <html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-	<title>Responsive Images - Resrcit</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Responsive Images - resrc.it</title>
+	<meta name="description" content="Responsive images with resrc.it.">
+	<meta name="viewport" content="width=device-width">
+	
 	<link rel="stylesheet" type="text/css" href="styles/css/resrcit.css">
 
 	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body>
+
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
 	<div id="main">
 		<h1><a href="http://www.resrc.it/" title="Resrc.it">Resrc.it</a></h1>
-		<p>Responsive images done with <a href="http://www.resrc.it/" title="Resrc.it">Resrc.it</a></p>
+		<p>Responsive images done with <a href="http://www.resrc.it/" title="Resrc.it">Resrc.it</a>. The first image gets loaded up with the preview approach. (mobile first) The second image gets loaded up with the perferred approach. (only one request per image)</p>
 	</div>
 
 	<div id="resrcit">
 		<div class="image-box">
-			<img src="http://trial.resrc.it/http://responsive-laboratory.denismir.de/examples/resrcit/images/color_1.jpg" alt="Color One" class="resrc">
-			<p>Credits go to: <a href="http://www.flickr.com/photos/uaeincredible/231011361/" title="uaeincredible">uaeincredible</a></p>
+			<img src="http://trial.resrc.it/s=w280/o=60(80)/http://responsive-laboratory.denismir.de/examples/resrcit/images/color_1.jpg" alt="Color One" class="resrc">
+			<p>Preview mode (mobile first).<br />Credits go to: <a href="http://www.flickr.com/photos/uaeincredible/231011361/" title="uaeincredible">uaeincredible</a></p>
 		</div>
 		<div class="image-box">
-			<img src="http://trial.resrc.it/http://responsive-laboratory.denismir.de/examples/resrcit/images/color_2.jpg" alt="Color Two" class="resrc">
-			<p>Credits go to: <a href="http://www.flickr.com/photos/32020964@N08/3006670758/" title="32020964@N08">32020964@N08</a></p>
+			<img data-src="http://trial.resrc.it/http://responsive-laboratory.denismir.de/examples/resrcit/images/color_2.jpg" alt="Color Two" class="resrc">
+			<p>Preferred mode (only one request).<br />Credits go to: <a href="http://www.flickr.com/photos/32020964@N08/3006670758/" title="32020964@N08">32020964@N08</a></p>
 		</div>
 	</div>
 

@@ -257,29 +257,29 @@ dl {
 img {
   max-width: 100%; }
 
-section#main {
+div#main {
   *zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  section#main:before, section#main:after {
+  div#main:before, div#main:after {
     content: " ";
     display: table; }
-  section#main:after {
+  div#main:after {
     clear: both; }
-  section#main h1 {
+  div#main h1 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%; }
-    section#main h1:last-child {
+    div#main h1:last-child {
       margin-right: 0; }
-  section#main p {
+  div#main p {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%; }
-    section#main p:last-child {
+    div#main p:last-child {
       margin-right: 0; }
 
 div#rows {
