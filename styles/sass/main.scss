@@ -28,14 +28,20 @@ div#rows {
 		display: block;
 		position: relative;
 		margin-top: em(10);
-		border: 20px solid #000;
+		border: 10px solid #000;
+		line-height: 0;
+
 		@include span-columns(4);
 		@include omega(3n);
 		div {
 			position: absolute;
-			background: rgba(75,75,75,0.7);
 			width: 100%;
 			height: 100%;
+			color: #2EFF3E;
+
+			img {
+				margin-top: em(120);
+			}
 		}
 	}
 }
